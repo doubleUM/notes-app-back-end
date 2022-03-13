@@ -1,0 +1,22 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "require-jsdoc": "off",
+        "no-prototype-builtins": "off",
+        //"semi": ["error", "never"],
+        "comma-dangle": "off",
+        "max-len": "off",
+        "guard-for-in": "off"
+    }
+}
